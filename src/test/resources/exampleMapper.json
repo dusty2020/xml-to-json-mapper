@@ -1,0 +1,27 @@
+{
+  "id": {
+    "outputKey": "patientid",
+    "numeric": true,
+    "mapperType": "NONE"
+  },
+  "gender": {
+    "outputKey": "sex",
+    "numeric": false,
+    "mapperType": "GENDER"
+  },
+  "state": {
+    "outputKey": "state",
+    "numeric": false,
+    "mapperType": "STATE_ABREV"
+  },
+  "name": {
+    "outputKey": "name",
+    "numeric": false,
+    "mapperType": "NONE"
+  },
+  "dateOfBirth": {
+    "outputKey": "age",
+    "numeric": true,
+    "mapperType": "DOB_TO_AGE"
+  }
+}
